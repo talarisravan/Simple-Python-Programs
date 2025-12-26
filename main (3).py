@@ -1,4 +1,3 @@
-# Pattern 1: Pyramid
 for i in range(5):
     for j in range(4 - i):
         print(" ", end="")
@@ -6,10 +5,10 @@ for i in range(5):
         print("* ", end="")
     print()
 
-# Pattern 2: Increasing left-aligned pattern
 for i in range(4):
     for j in range(i+1):
         print(" ", end="")
     for k in range(4-i):
         print("* ", end="")
     print()
+
